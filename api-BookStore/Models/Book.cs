@@ -15,8 +15,5 @@ namespace api_BookStore.Models
         public string Category { get; set; } = null!;
         [BsonElement("Autor")]
         public string Author { get; set; } = null!;
-
-
-
     }
 }
