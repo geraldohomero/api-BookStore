@@ -4,10 +4,10 @@ using Microsoft.Extensions.Options;
 
 namespace api_BookStore.Services
 {
-    public class BooksServices
+    public class BooksService
     {
         private readonly IMongoCollection<Book> _booksCollection;
-        public BooksServices(
+        public BooksService(
             IOptions<BookStoreDatabaseSettings> bookStoreDatabaseSettings)
         {
             var mongoClient = new MongoClient(
