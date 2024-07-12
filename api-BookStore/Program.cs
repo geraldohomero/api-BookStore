@@ -3,9 +3,6 @@ using api_BookStore.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-//
-//
 builder.Services.Configure<BookStoreDatabaseSettings>(
     builder.Configuration.GetSection("BookStoreDatabase"));
 
