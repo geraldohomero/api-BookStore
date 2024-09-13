@@ -9,7 +9,6 @@ builder.Services.Configure<BookStoreDatabaseSettings>(
 builder.Services.AddSingleton<BooksService>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
